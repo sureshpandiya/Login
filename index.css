@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    overflow-y: scroll;
+}
+.container-fluid{
+    margin: 3rem 0px;
+}
+.zeplin_image{
+    max-width: 300px;
+}
+.google_img{
+    width: 20px;
+}
+h1{
+    font-weight: 300;
+    font-size: 36px;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: #554d56;
+}
+p{
+    font-size: 15px;
+    color: #554d56;
+    line-height: 18px;
+    margin-top: 12px;
+}
+.action_btn > a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 21px 0 14px;
+    border-radius: 2px;
+    outline: none;
+    font-weight: bold;
+    font-size: 8px;
+    font-family: Roboto, Helvetica, sans-serif;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 24%), 0 0 1px 0 rgb(0 0 0 / 12%);
+    height: 40px;
+}
+.figma_link_btn{
+    color: white;
+    background-color: black;
+    margin-bottom: 4px;
+}
+a.figma_link_btn:hover {
+    color: white !important;
+}
+.figma_link_btn span, .google_btn span {
+    font-size: 16px;
+}
+.figma_link_btn img, .figma_link_btn img {
+    height: 18px;
+    width: 18px;
+}
+.google_btn{
+    color: rgba(0,0,0,.54);
+}
+.google_btn:hover{
+    background-color: #f5f5f5;
+    color: rgba(0,0,0,.54) !important;
+}
+hr{
+    background-color: #edeced;
+    width: 40px;
+    height: 3px !important;
+    margin: 20px 56px;
+    opacity: 0.5;
+    border-radius: 1px;
+}
+.formWidth{
+    max-width: 248px;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    background-color: #edeced;
+    font-size: 16px;
+    padding: 6px;
+    color: #554d56;
+    border: none;
+}
+button{
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 10px;
+    opacity: .5;
+    background-color: #419bf9;
+}
+form > a{
+    color: #419bf9;
+}
+.loginSSO {
+    font-size: 15px;
+    line-height: 18px;
+}
+.hyper_link, .forget_password > span{
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+}
+a.hyper_link:hover {
+    color: #419bf9;
+}
+.forget_password > span{
+    color: #554d56;
+}
+.forget_password > span > a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #419bf9;
+}
+.loginBtn{
+    height: 40px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 766px) {
+    .banner{
+        display: none;
+    }
+    .formWidth {
+        max-width: 100%;
+    }
+    .login {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h1{
+        font-size: 24px;
+        text-align: center;
+        line-height: 28px;
+    }
+    p{
+        margin-top: 0px;
+        text-align: center;
+    }   
+}
