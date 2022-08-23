@@ -23,18 +23,14 @@
                 <h1>Great to have you here!</h1>
                 <p>You can login to access your workspace.</p>
                 <div class="d-block mt-4 action_btn formWidth">
-                    <a class="figma_link_btn mb-3" href="/login_figma"><img class="google_img" src="images/figma_link-btn.svg" alt="Figma"><span class="ms-2">Login with Figma</span></a>
-                    <a class="google_btn" href="/login_google"><img class="google_img" src="images/google.png" alt="google_icon"><span class="ms-2">Login with Google</span></a>
+                    <a class="figma_link_btn mb-3" href="/login_figma"><img class="google_img" src="./images/figma_link-btn.svg" alt="Figma"><span class="ms-2">Login with Figma</span></a>
+                    <a class="google_btn" href="/login_google"><img class="google_img" src="./images/google.png" alt="google_icon"><span class="ms-2">Login with Google</span></a>
                 </div>
                 <div class="w-100 d-flex justify-content-center align-items-center formWidth">
                     <hr>
                 </div>
                 <div class="form_inputs formWidth">
-                    <form class="login_form">
-                        <input class="mb-1" type="text" name="email" id="email" placeholder="Work email" autocomplete="email" required>
-                        <input class="mb-1" type="password" name="password" id="password" placeholder="Password" autocomplete="password" required>
-                        <button type="submit" class="mb-1 loginBtn">Login</button>
-                        <a class="hyper_link text-center loginSSO" href="/login_sso">Login with SSO</a>
+                    <form id="login_form">
                     </form>
                 </div>
                 <div class="w-100 d-flex justify-content-center align-items-center formWidth">
@@ -47,5 +43,6 @@
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

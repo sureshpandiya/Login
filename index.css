@@ -92,7 +92,7 @@ button{
     opacity: .5;
     background-color: #419bf9;
 }
-form > a{
+form > a, .forget_password > a{
     color: #419bf9;
 }
 .loginSSO {
@@ -120,7 +120,10 @@ a.hyper_link:hover {
     height: 40px;
     font-size: 15px;
 }
-
+input, button{
+    margin-bottom: 10px;
+    width: 100%;
+}
 @media only screen and (max-width: 766px) {
     .banner{
         display: none;
